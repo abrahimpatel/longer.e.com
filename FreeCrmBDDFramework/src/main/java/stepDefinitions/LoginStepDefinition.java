@@ -47,7 +47,7 @@ public class LoginStepDefinition{
 	@Then("^user enters \"(.*)\" and \"(.*)\"$")
 	public void user_enters_username_and_password(String username, String password) throws InterruptedException{
 		
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 		driver.findElement(By.xpath("//*[@id=\"ui\"]/div/div/form/div/div[1]/div/input")).sendKeys(username);
 		driver.findElement(By.xpath("//*[@id=\"ui\"]/div/div/form/div/div[2]/div/input")).sendKeys(password);
 	}

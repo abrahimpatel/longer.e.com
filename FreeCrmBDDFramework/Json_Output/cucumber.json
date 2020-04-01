@@ -3,382 +3,146 @@
     "line": 1,
     "elements": [
       {
-        "before": [
-          {
-            "result": {
-              "duration": 4102000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.setUP()"
-            }
-          },
-          {
-            "result": {
-              "duration": 563700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.setUP1()"
-            }
-          }
-        ],
-        "line": 17,
-        "name": "Free CRM Create a new contact scenario",
+        "line": 3,
+        "name": "Purchase pillow using valid credit card",
         "description": "",
-        "id": "free-crm-create-contacts;free-crm-create-a-new-contact-scenario;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 80200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.tearDown1()"
-            }
-          },
-          {
-            "result": {
-              "duration": 130900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.tearDown()"
-            }
-          }
-        ],
+        "id": "purchase-pellow-using-valid--credit-card;purchase-pillow-using-valid-credit-card",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 9731847300,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 5,
-            "name": "user is already on Login Page",
-            "match": {
-              "location": "LoginStepDefinition.user_already_on_login_page()"
-            },
+            "name": "user is already on Sample store page",
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 419342000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 6,
-            "name": "title of login page is Free CRM",
-            "match": {
-              "location": "LoginStepDefinition.title_of_login_page_is_free_CRM()"
-            },
+            "name": "title of main page is Sample Store",
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 5810066900,
-              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom unknown error: missing or invalid \u0027entry.level\u0027\n  (Session info: chrome\u003d80.0.3987.149)\n  (Driver info: chromedriver\u003d2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform\u003dWindows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-6F3L3JL\u0027, ip: \u0027192.168.0.110\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.27.440174 (e97a722caafc2d..., userDataDir: C:\\Users\\HPX\\AppData\\Local\\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.149, webStorageEnabled: true}\nSession ID: 365017b6d094e4c3f32f7a04c30f3038\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat stepDefinitions.LoginStepDefinition.user_move_on_login_page(LoginStepDefinition.java:44)\r\n\tat ✽.Then user move on login page(D:/selenium-cucum/src/main/java/Features/contacts.feature:7)\r\n",
-              "status": "failed"
+              "status": "undefined"
             },
             "line": 7,
-            "name": "user move on login page",
-            "match": {
-              "location": "LoginStepDefinition.user_move_on_login_page()"
-            },
+            "name": "user click on Buy Now",
+            "match": {},
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "status": "undefined"
             },
             "line": 8,
-            "name": "user enters \"naveenk\" and \"test@123\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "naveenk",
-                  "offset": 13
-                },
-                {
-                  "val": "test@123",
-                  "offset": 27
-                }
-              ],
-              "location": "LoginStepDefinition.user_enters_username_and_password(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
+            "name": "user enters count",
+            "match": {},
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "status": "undefined"
             },
             "line": 9,
-            "name": "user clicks on login button",
-            "match": {
-              "location": "LoginStepDefinition.user_clicks_on_login_button()"
-            },
+            "name": "user enters name",
+            "match": {},
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "status": "undefined"
             },
             "line": 10,
-            "name": "user is on home page",
-            "match": {
-              "location": "LoginStepDefinition.user_is_on_hopme_page()"
-            },
+            "name": "user enter email",
+            "match": {},
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "status": "undefined"
             },
             "line": 11,
-            "name": "user moves to new contact page",
-            "match": {
-              "location": "LoginStepDefinition.user_moves_to_new_contact_page()"
-            },
+            "name": "user enter phone number",
+            "match": {},
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "status": "undefined"
             },
             "line": 12,
-            "name": "user enters contact details \"Tom\" and \"Peter\" and \"Manager\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Tom",
-                  "offset": 29
-                },
-                {
-                  "val": "Peter",
-                  "offset": 39
-                },
-                {
-                  "val": "Manager",
-                  "offset": 51
-                }
-              ],
-              "location": "LoginStepDefinition.user_enters_contacts_details(String,String,String)"
-            },
-            "matchedColumns": [
-              2,
-              3,
-              4
-            ],
+            "name": "user enter city",
+            "match": {},
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "status": "undefined"
             },
             "line": 13,
+            "name": "user enter address",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "user enter postal code",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "user click checkout",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "user verify order summary",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "user click on continue",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
             "name": "Close the browser",
-            "match": {
-              "location": "LoginStepDefinition.close_the_browser()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 149400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.setUP()"
-            }
-          },
-          {
-            "result": {
-              "duration": 117500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.setUP1()"
-            }
-          }
-        ],
-        "line": 18,
-        "name": "Free CRM Create a new contact scenario",
-        "description": "",
-        "id": "free-crm-create-contacts;free-crm-create-a-new-contact-scenario;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 109100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.tearDown1()"
-            }
-          },
-          {
-            "result": {
-              "duration": 97000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 8754204300,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user is already on Login Page",
-            "match": {
-              "location": "LoginStepDefinition.user_already_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 704515600,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "title of login page is Free CRM",
-            "match": {
-              "location": "LoginStepDefinition.title_of_login_page_is_free_CRM()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 6350891500,
-              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom unknown error: missing or invalid \u0027entry.level\u0027\n  (Session info: chrome\u003d80.0.3987.149)\n  (Driver info: chromedriver\u003d2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform\u003dWindows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-6F3L3JL\u0027, ip: \u0027192.168.0.110\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.27.440174 (e97a722caafc2d..., userDataDir: C:\\Users\\HPX\\AppData\\Local\\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.149, webStorageEnabled: true}\nSession ID: c4dbb73b64579638cfa60507e0ac6ceb\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat stepDefinitions.LoginStepDefinition.user_move_on_login_page(LoginStepDefinition.java:44)\r\n\tat ✽.Then user move on login page(D:/selenium-cucum/src/main/java/Features/contacts.feature:7)\r\n",
-              "status": "failed"
-            },
-            "line": 7,
-            "name": "user move on login page",
-            "match": {
-              "location": "LoginStepDefinition.user_move_on_login_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 8,
-            "name": "user enters \"naveenk\" and \"test@123\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "naveenk",
-                  "offset": 13
-                },
-                {
-                  "val": "test@123",
-                  "offset": 27
-                }
-              ],
-              "location": "LoginStepDefinition.user_enters_username_and_password(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 9,
-            "name": "user clicks on login button",
-            "match": {
-              "location": "LoginStepDefinition.user_clicks_on_login_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 10,
-            "name": "user is on home page",
-            "match": {
-              "location": "LoginStepDefinition.user_is_on_hopme_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 11,
-            "name": "user moves to new contact page",
-            "match": {
-              "location": "LoginStepDefinition.user_moves_to_new_contact_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 12,
-            "name": "user enters contact details \"David\" and \"Dsouza\" and \"Director\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "David",
-                  "offset": 29
-                },
-                {
-                  "val": "Dsouza",
-                  "offset": 41
-                },
-                {
-                  "val": "Director",
-                  "offset": 54
-                }
-              ],
-              "location": "LoginStepDefinition.user_enters_contacts_details(String,String,String)"
-            },
-            "matchedColumns": [
-              2,
-              3,
-              4
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 13,
-            "name": "Close the browser",
-            "match": {
-              "location": "LoginStepDefinition.close_the_browser()"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Free CRM Create Contacts",
+    "name": "Purchase pellow using valid  credit card",
     "description": "",
-    "id": "free-crm-create-contacts",
+    "id": "purchase-pellow-using-valid--credit-card",
     "keyword": "Feature",
-    "uri": "D:/selenium-cucum/src/main/java/Features/contacts.feature"
+    "uri": "D:/git/longer.e.com/longer.e.com/FreeCrmBDDFramework/src/main/java/Features/purchase_pellow.feature"
   }
 ]
